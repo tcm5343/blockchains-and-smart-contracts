@@ -1,2 +1,2 @@
 # blockchains-and-smart-contracts
-Repo for ECE: 382V
+repo for ECE: 382V
