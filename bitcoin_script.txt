@@ -1,0 +1,18 @@
+Stack inputs:
+// first two inputs must be two numbers which are equal to 42069
+<39645>
+<2424>
+// third input must be a number which when hashed, equals the hash in the script
+<4>
+
+Witness Script:
+OP_HASH256
+<0x214e63bf41490e67d34476778f6707aa6c8d2c8dccdf78ae11e40ee9f91e89a7>
+OP_EQUALVERIFY
+OP_ADD
+OP_HASH256
+<0x981f9129cbc6f9ef07ca31b1c13041623b27efbfb57f5082e211c4b775035ba6>
+OP_EQUAL
+
+
+Ran on https://ide.scriptwiz.app/ using Bitcoin (Bitcoin v0_p2wsh)
