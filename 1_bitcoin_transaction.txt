@@ -1,0 +1,32 @@
+Steps:
+
+1. testnet=1 in my bitcoin.conf file
+2. went to a faucet and sent some test net coins to myself
+3. Ran settxfee 0.00001 in the bitcoin core console
+4. Ran sendtoaddress tb1qlpxh04p2ywasvn6pn3azqhn3kgcxrf04xmd5dr 0.000005 which returned 92a2120c544ff17dfcb6b893727a6ba54a2961b42e4d1968c7eee250cc90aae0
+5. Ran gettransaction 92a2120c544ff17dfcb6b893727a6ba54a2961b42e4d1968c7eee250cc90aae0 which returned
+{
+  "amount": -0.00000500,
+  "fee": -0.00000141,
+  "confirmations": 0,
+  "trusted": true,
+  "txid": "92a2120c544ff17dfcb6b893727a6ba54a2961b42e4d1968c7eee250cc90aae0",
+  "walletconflicts": [
+  ],
+  "time": 1668981879,
+  "timereceived": 1668981879,
+  "bip125-replaceable": "no",
+  "details": [
+    {
+      "address": "tb1qlpxh04p2ywasvn6pn3azqhn3kgcxrf04xmd5dr",
+      "category": "send",
+      "amount": -0.00000500,
+      "vout": 0,
+      "fee": -0.00000141,
+      "abandoned": false
+    }
+  ],
+  "hex": "02000000000101bc7a36236dbedbc688f6acc0597a13295ab66cf9966072a12af0f063819d4e370000000000feffffff02f401000000000000160014f84d77d42a23bb064f419c7a205e71b23061a5f5c908000000000000160014f5b37a1ef31bc9e273e701a47850d66b167a5d9d02473044022072e4645bd0fd551341b52e878001fb8639a59866bdfe88ce111cf7ec63a56dfe02205f00805a5471f66309daa0914136d7b799f361414dd7200f9bc8d5f68f99090d01210243b7f62e968efd6d6d30b2476381fd05b473b056187fc3b3a57620c874f367abdfbb2400"
+}
+
+Here is a link to my transaction on mempool.space pointed at the testnet: https://mempool.space/testnet/tx/92a2120c544ff17dfcb6b893727a6ba54a2961b42e4d1968c7eee250cc90aae0
