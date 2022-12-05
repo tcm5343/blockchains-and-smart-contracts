@@ -1,0 +1,5 @@
+Funding transaction: https://mempool.space/testnet/tx/600bf5e564d7e65fa8bd0939dd7aa40226d43edf6eb230612d69872bf28db99c
+encoded bolt11 invoice of the payment: lntb10u1p3c6u8epp5292j6z8msncandvahl4vjd70adrmhz0fth7lx33yaa2qf88tfmeqdqqcqzpgxqyz5vqsp5ltgujjd4nmwfsh06pl6rsptthlktakqcpl4el4vphx6wnkh9xnms9qyyssqaymr4g3s2c4d6fek8lvkx4eq9q2dh4rqma7tl39grpmluwnycyfxnr0arhvlu5jvzy9ylucp4cg42m9w2jchspeasrfjrk46ufya2hsqrmrcu0
+Closing transaction: https://mempool.space/testnet/tx/f9e3ee4855d176511f02b8d41937ed76d2b2d2a3f2e374596eecc874e0755924
+
+An issue I ran into was that I needed 20,000 SATS to open a channel. The faucet was only giving out 500 SATS every hour. I reached out to topher who send me some. I ran this using the Bob and Alice example which is in the bitcoin-programming repo.
